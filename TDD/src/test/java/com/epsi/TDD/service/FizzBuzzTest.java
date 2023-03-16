@@ -5,14 +5,11 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.Test;
 
 public class FizzBuzzTest {
-
-	
 	
 	@Test
 	public void test_fizz_buzz_one() {
 		assertEquals("1", FizzBuzz.play(1));
 	}
-	
 	
 	@Test
 	public void test_fizz_bizz_8() {
@@ -26,7 +23,7 @@ public class FizzBuzzTest {
 	}
 	 
 	@Test
-	public void test_fizz_buzz_21_return_fizz() {
+	public void test_fizz_buzz_21_return_fizz() { 
 		assertEquals("fizz", FizzBuzz.play(21));				
 	}
 	
